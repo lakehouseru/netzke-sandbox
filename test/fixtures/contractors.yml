@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: World Class
+  official_name:  Фитнесс Планета
+  email: fitness@fitness.ru
+  phone: +7 495 123 88 22
+  jur_form: ООО
+  address: Красная пл.
+  contractor_type_id: 1
+  inn: 1
+  description: MyText
+  is_blocked: false
+
+two:
+  name: Ресторан Гавана
+  official_name: Мелькинян
+  email: info@gavana.ru
+  phone: +7 495 234 33 33
+  jur_form: ИП
+  address:  Красная пл.
+  contractor_type_id: 1
+  inn: 1
+  description: MyText
+  is_blocked: false

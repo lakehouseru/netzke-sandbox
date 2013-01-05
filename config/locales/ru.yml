@@ -1,0 +1,113 @@
+ru:
+  netzke:
+    basepack:
+      grid:
+        actions:
+          add:
+            text: Добавить 
+          edit:
+            text: Правка
+          del:
+            text: Удлаить
+            tooltip: Удалить
+          apply:
+            text: Применить
+          add_in_form:
+            text: Добавить в окне
+          edit_in_form:
+            text: Удалить в окне
+          search:
+            text: Поиск
+
+        deleted_n_records: "Удалено %{n} строк"
+        cannot_delete: "У вас нет прав на удаление"
+        confirmation: Подтверждение
+        are_you_sure: Вы уверены?
+
+      record_form_window:
+        actions:
+          ok:
+            text: OK
+          cancel:
+            text: Отмена
+
+      search_window:
+        title: Расширенный поиск
+        actions:
+          search:
+            text: Поиск
+          cancel:
+            text: Отмена
+
+      form:
+        actions:
+          edit:
+            text: Правка
+            tooltip: Правка
+          cancel:
+            text: Отмена
+            tooltip: Отменить правку
+          apply:
+            text: Применить
+            tooltip: Применить правки
+
+      search_panel:
+        presets: Предуст.
+        equals: Равно
+        greater_than: Больше чем
+        less_than: Меньше чем
+        contains: Содержит
+        matches: Соответствует
+        date_equals: "On"
+        before: До
+        after: После
+
+      paging_form:
+        actions:
+          search:
+            text: Поиск
+            tooltip: Расшир. поиск
+
+      query_builder:
+        presets: Предустановки
+        preset_saved: Успешно сохранено
+        preset_deleted: Удалено
+        overwrite_confirm: "Вы уверены что хотите перезаписать '{0}'?"
+        overwrite_confirm_title: "Перезаписано"
+        delete_confirm: "Вы действительно хотите удалить '{0}'?"
+        delete_confirm_title: "Удалено"
+        actions:
+          clear_all: Очистить
+          clear_all_tooltip: Очистить все условия
+          reset: Сброс
+          reset_tooltip: Сброс условий
+          save_preset: Сохранить предуст.
+          save_preset_tooltip: Сохранить предуст.
+          delete_preset: Удалить предуст.
+          delete_preset_tooltip: Удалить предустановку
+          apply: Применить
+          apply_tooltip: Применить новые условия
+          
+
+    formats:
+      date: d-m-Y
+      datetime: d-m-Y H:i:s
+      time: H:i:s
+      
+  activerecord:
+    models:
+      contractor: Контрагент
+    attributes:
+      contractor:
+        name: "Название"
+        contractor_type_id: "Тип контрагента"
+        inn: "ИНН"
+      # will translate User attribute "login" as "Handle"
+  pm:
+    common:
+      name: Название
+      description: Описание
+    contractors:
+      contractors: Контрагенты
+    contractor_type:
+      contractor_types: Типы контрагентов
